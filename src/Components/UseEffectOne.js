@@ -9,9 +9,10 @@ function UseEffectOne() {
     useEffect(()=>{
         document.title= `You clicked ${count} times`;
     })
+
     return (
         <div>
-            <button>Click Count {count}</button>
+            <button onClick={()=>setCount(count+1)}>Click Count {count}</button>
         </div>
     )
 }

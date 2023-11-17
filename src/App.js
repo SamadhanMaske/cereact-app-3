@@ -9,6 +9,11 @@ import ClassCounterTwo from './Components/ClassCounterTwo';
 import HookCounterThree from './Components/HookCounterThree';
 import HookCounterFour from './Components/HookCounterFour';
 import UseEffectOne from './Components/UseEffectOne';
+import ClassEffectOne from './Components/ClassEffectOne';
+import ClassEffectTwo from './Components/ClassEffectTwo';
+import UseEffectTwo from './Components/UseEffectTwo';
+import UseEffectThree from './Components/UseEffectThree';
+import MouseContainer from './Components/MouseContainer';
 
 function App() {
   return (
@@ -22,7 +27,15 @@ function App() {
       {/* <HookCounterThree/> */}
       {/* <HookCounterFour/> */}
 
-      <UseEffectOne/>
+      {/* <UseEffectOne/> */}
+      {/* <ClassEffectOne/> */}
+
+      {/* <ClassEffectTwo/> */}
+      {/* <UseEffectTwo/> */}
+
+      {/* <UseEffectThree/> */}
+
+      <MouseContainer/>
     </div>
   );
 }
