@@ -14,6 +14,7 @@ import ClassEffectTwo from './Components/ClassEffectTwo';
 import UseEffectTwo from './Components/UseEffectTwo';
 import UseEffectThree from './Components/UseEffectThree';
 import MouseContainer from './Components/MouseContainer';
+import UseEffectFetch from './Components/UseEffectFetch';
 
 function App() {
   return (
@@ -35,7 +36,9 @@ function App() {
 
       {/* <UseEffectThree/> */}
 
-      <MouseContainer/>
+      {/* <MouseContainer/> */}
+
+      <UseEffectFetch/>
     </div>
   );
 }
