@@ -17,10 +17,11 @@ const reducer = (state, action)=>{
 
 function UseReducerOne() {
     const [count, dispatch] = useReducer(reducer, initialState);
+    // count is state object and dispatch is method capable of acception action as argument
+    // argument to dispatch method is the action specified in reducer method
     return (
         <div>
             <div>Count {count}</div>
-            // argument to dispatch method is the action specified in reducer method
             <button onClick={()=>dispatch('increment')}>Increment</button> 
             <button onClick={()=>dispatch('decrement')}>Decrement</button>
             <button onClick={()=>dispatch('reset')}>Reset</button>
