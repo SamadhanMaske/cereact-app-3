@@ -21,6 +21,7 @@ import UseReducerThree from './Components/UseReducerThree';
 import GlobalState from './Components/GlobalState';
 import URDataFetching from './Components/URDataFetching';
 import URDataFetchingTwo from './Components/URDataFetchingTwo';
+import PerformanceOpti from './Components/PerformanceOpti';
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
       {/* <GlobalState/> */}
 
       {/* <URDataFetching/> */}
-      <URDataFetchingTwo/>
+      {/* <URDataFetchingTwo/> */}
+      <PerformanceOpti/>
     </div>
   );
 }
