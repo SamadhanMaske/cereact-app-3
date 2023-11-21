@@ -19,6 +19,8 @@ import UseReducerOne from './Components/UseReducerOne';
 import UseReducerTwo from './Components/UseReducerTwo';
 import UseReducerThree from './Components/UseReducerThree';
 import GlobalState from './Components/GlobalState';
+import URDataFetching from './Components/URDataFetching';
+import URDataFetchingTwo from './Components/URDataFetchingTwo';
 
 function App() {
   return (
@@ -48,7 +50,10 @@ function App() {
       {/* <UseReducerTwo/> */}
       {/* <UseReducerThree/> */}
 
-      <GlobalState/>
+      {/* <GlobalState/> */}
+
+      {/* <URDataFetching/> */}
+      <URDataFetchingTwo/>
     </div>
   );
 }
