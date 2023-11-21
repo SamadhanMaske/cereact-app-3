@@ -17,6 +17,8 @@ import MouseContainer from './Components/MouseContainer';
 import UseEffectFetch from './Components/UseEffectFetch';
 import UseReducerOne from './Components/UseReducerOne';
 import UseReducerTwo from './Components/UseReducerTwo';
+import UseReducerThree from './Components/UseReducerThree';
+import GlobalState from './Components/GlobalState';
 
 function App() {
   return (
@@ -43,7 +45,10 @@ function App() {
       {/* <UseEffectFetch/> */}
 
       {/* <UseReducerOne/> */}
-      <UseReducerTwo/>
+      {/* <UseReducerTwo/> */}
+      {/* <UseReducerThree/> */}
+
+      <GlobalState/>
     </div>
   );
 }
